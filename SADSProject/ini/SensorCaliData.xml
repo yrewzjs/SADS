@@ -1,0 +1,143 @@
+<!-- 文档声明 -->
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!-- 传感器标定数据 -->
+<!--
+		1、<sensor>标签id属性不能重复且按序递增，否则报错！
+		  1.1、<caliValue>标签是传感器对应的相对距离标定数据。
+		  1.2、<gcHeight>标签是传感器对应的普通管片相机景深高度数据。
+		  1.3、<rcHeight>标签是传感器对应的封顶管片相机景深高度数据。
+	-->
+<LaserModule>
+	<!-- 一个传感器 -->
+	<sensor id="0">
+		<calValue value="0" />
+		<gcHeight value="0" />
+		<rcHeight value="0" />
+	</sensor>
+
+	<sensor id="1">
+		<calValue value="0" />
+		<gcHeight value="0" />
+		<rcHeight value="0" />
+	</sensor>
+
+	<sensor id="2">
+		<calValue value="0" />
+		<gcHeight value="0" />
+		<rcHeight value="0" />
+	</sensor>
+
+	<sensor id="3">
+		<calValue value="0" />
+		<gcHeight value="0" />
+		<rcHeight value="0" />
+	</sensor>
+
+	<sensor id="4">
+		<calValue value="0" />
+		<gcHeight value="0" />
+		<rcHeight value="0" />
+	</sensor>
+
+	<sensor id="5">
+		<calValue value="0" />
+		<gcHeight value="0" />
+		<rcHeight value="0" />
+	</sensor>
+
+	<sensor id="6">
+		<calValue value="0" />
+		<gcHeight value="0" />
+		<rcHeight value="0" />
+	</sensor>
+
+	<sensor id="7">
+		<calValue value="0" />
+		<gcHeight value="0" />
+		<rcHeight value="0" />
+	</sensor>
+
+	<sensor id="8">
+		<calValue value="0" />
+		<gcHeight value="0" />
+		<rcHeight value="0" />
+	</sensor>
+
+	<sensor id="9">
+		<calValue value="0" />
+		<gcHeight value="0" />
+		<rcHeight value="0" />
+	</sensor>
+
+	<sensor id="10">
+		<calValue value="0" />
+		<gcHeight value="0" />
+		<rcHeight value="0" />
+	</sensor>
+
+	<sensor id="11">
+		<calValue value="0" />
+		<gcHeight value="0" />
+		<rcHeight value="0" />
+	</sensor>
+
+	<sensor id="12">
+		<calValue value="0" />
+		<gcHeight value="0" />
+		<rcHeight value="0" />
+	</sensor>
+
+	<sensor id="13">
+		<calValue value="0" />
+		<gcHeight value="0" />
+		<rcHeight value="0" />
+	</sensor>
+
+	<sensor id="14">
+		<calValue value="0" />
+		<gcHeight value="0" />
+		<rcHeight value="0" />
+	</sensor>
+
+	<sensor id="15">
+		<calValue value="0" />
+		<gcHeight value="0" />
+		<rcHeight value="0" />
+	</sensor>
+
+	<sensor id="16">
+		<calValue value="0" />
+		<gcHeight value="0" />
+		<rcHeight value="0" />
+	</sensor>
+
+	<sensor id="17">
+		<calValue value="0" />
+		<gcHeight value="0" />
+		<rcHeight value="0" />
+	</sensor>
+
+	<sensor id="18">
+		<calValue value="0" />
+		<gcHeight value="0" />
+		<rcHeight value="0" />
+	</sensor>
+
+	<sensor id="19">
+		<calValue value="0" />
+		<gcHeight value="0" />
+		<rcHeight value="0" />
+	</sensor>
+
+	<sensor id="20">
+		<calValue value="0" />
+		<gcHeight value="0" />
+		<rcHeight value="0" />
+	</sensor>
+
+	<sensor id="21">
+		<calValue value="0" />
+		<gcHeight value="0" />
+		<rcHeight value="0" />
+	</sensor>
+</LaserModule>

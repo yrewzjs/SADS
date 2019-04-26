@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{ABB06C7F-B69D-4145-BDC8-AB0E2502EF92}</ProjectGuid>
+    <RootNamespace>SADSProject</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <ProjectName>SADS</ProjectName>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Debug\ini\OpenCV_PropertySheet.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\camera\OpenCVrelaese_PropertySheet.props" />
+    <Import Project="..\Debug\ini\OpenCVrelaese_PropertySheet.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>D:\opencv\build\include\opencv2;D:\opencv\build\include\opencv;D:\opencv\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\opencv\build\x86\vc12\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../laser;../mx;../camera;../support;../support/easyloggingpp;../support/tinyXML;../main;$(ProjectDir);../interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opencv_ml2413d.lib;opencv_calib3d2413d.lib;opencv_contrib2413d.lib;opencv_core2413d.lib;opencv_features2d2413d.lib;opencv_flann2413d.lib;opencv_gpu2413d.lib;opencv_highgui2413d.lib;opencv_imgproc2413d.lib;opencv_legacy2413d.lib;opencv_objdetect2413d.lib;opencv_ts2413d.lib;opencv_video2413d.lib;opencv_nonfree2413d.lib;opencv_ocl2413d.lib;opencv_photo2413d.lib;opencv_stitching2413d.lib;opencv_superres2413d.lib;opencv_videostab2413d.lib</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opencv_ml2413d.lib;opencv_calib3d2413d.lib;opencv_contrib2413d.lib;opencv_core2413d.lib;opencv_features2d2413d.lib;opencv_flann2413d.lib;opencv_gpu2413d.lib;opencv_highgui2413d.lib;opencv_imgproc2413d.lib;opencv_legacy2413d.lib;opencv_objdetect2413d.lib;opencv_ts2413d.lib;opencv_video2413d.lib;opencv_nonfree2413d.lib;opencv_ocl2413d.lib;opencv_photo2413d.lib;opencv_stitching2413d.lib;opencv_superres2413d.lib;opencv_videostab2413d.lib</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\camera\CamaraModule.h" />
+    <ClInclude Include="..\camera\CamIP_manage.h" />
+    <ClInclude Include="..\camera\coordinate_standardize.h" />
+    <ClInclude Include="..\camera\coords_struct.h" />
+    <ClInclude Include="..\camera\ctrl_cam.h" />
+    <ClInclude Include="..\camera\IO_cam.h" />
+    <ClInclude Include="..\camera\read_writeXML.h" />
+    <ClInclude Include="..\camera\value2transit_formchange.h" />
+    <ClInclude Include="..\interface\DialogAbout.h" />
+    <ClInclude Include="..\interface\DialogCalibration.h" />
+    <ClInclude Include="..\interface\DialogCamera.h" />
+    <ClInclude Include="..\interface\DialogDisplayPartA.h" />
+    <ClInclude Include="..\interface\DialogDisplayPartB.h" />
+    <ClInclude Include="..\interface\DialogDisplayPartC.h" />
+    <ClInclude Include="..\interface\DialogInput.h" />
+    <ClInclude Include="..\interface\SADSProject.h" />
+    <ClInclude Include="..\interface\SADSProjectDlg.h" />
+    <ClInclude Include="..\laser\Calculate.h" />
+    <ClInclude Include="..\laser\CalculateRanging.h" />
+    <ClInclude Include="..\laser\ConfigFileUtill.h" />
+    <ClInclude Include="..\laser\Group.h" />
+    <ClInclude Include="..\laser\IO.h" />
+    <ClInclude Include="..\laser\IOSocket.h" />
+    <ClInclude Include="..\laser\IpGroup.h" />
+    <ClInclude Include="..\laser\LaserDef.h" />
+    <ClInclude Include="..\laser\LaserDriver.h" />
+    <ClInclude Include="..\laser\LaserRequest.h" />
+    <ClInclude Include="..\laser\LaserResponse.h" />
+    <ClInclude Include="..\laser\RangingModule.h" />
+    <ClInclude Include="..\laser\RecvListenThread.h" />
+    <ClInclude Include="..\laser\Sensor.h" />
+    <ClInclude Include="..\laser\SensorData.h" />
+    <ClInclude Include="..\laser\SensorFactory.h" />
+    <ClInclude Include="..\laser\SensorKeyence.h" />
+    <ClInclude Include="..\laser\SensorManager.h" />
+    <ClInclude Include="..\laser\SensorSick.h" />
+    <ClInclude Include="..\laser\Thread.h" />
+    <ClInclude Include="..\laser\SyncCondition.h" />
+    <ClInclude Include="..\main\AdjustThread.h" />
+    <ClInclude Include="..\main\PlcMonitorThread.h" />
+    <ClInclude Include="..\main\SadsDef.h" />
+    <ClInclude Include="..\main\MessageProcess.h" />
+    <ClInclude Include="..\main\Segments.h" />
+    <ClInclude Include="..\main\Synchronized.h" />
+    <ClInclude Include="..\main\SyncQueue.h" />
+    <ClInclude Include="..\main\VideoThread.h" />
+    <ClInclude Include="..\main\WorkingThread.h" />
+    <ClInclude Include="..\mx\CActUtlType.h" />
+    <ClInclude Include="..\mx\MXComonentDef.h" />
+    <ClInclude Include="..\mx\MxWrapper.h" />
+    <ClInclude Include="..\support\easyloggingpp\easylogging++.h" />
+    <ClInclude Include="..\support\tinyXML\tinystr.h" />
+    <ClInclude Include="..\support\tinyXML\tinyxml.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\camera\CamaraModule.cpp" />
+    <ClCompile Include="..\camera\CamIP_manage.cpp" />
+    <ClCompile Include="..\camera\coordinate_standardize.cpp" />
+    <ClCompile Include="..\camera\coords_struct.cpp" />
+    <ClCompile Include="..\camera\ctrl_cam.cpp" />
+    <ClCompile Include="..\camera\IO_cam.cpp" />
+    <ClCompile Include="..\camera\read_writeXML.cpp" />
+    <ClCompile Include="..\camera\value2transit_formchange.cpp" />
+    <ClCompile Include="..\interface\DialogAbout.cpp" />
+    <ClCompile Include="..\interface\DialogCalibration.cpp" />
+    <ClCompile Include="..\interface\DialogCamera.cpp" />
+    <ClCompile Include="..\interface\DialogDisplayPartA.cpp" />
+    <ClCompile Include="..\interface\DialogDisplayPartB.cpp" />
+    <ClCompile Include="..\interface\DialogDisplayPartC.cpp" />
+    <ClCompile Include="..\interface\DialogInput.cpp" />
+    <ClCompile Include="..\interface\SADSProject.cpp" />
+    <ClCompile Include="..\interface\SADSProjectDlg.cpp" />
+    <ClCompile Include="..\laser\Calculate.cpp" />
+    <ClCompile Include="..\laser\CalculateRanging.cpp" />
+    <ClCompile Include="..\laser\ConfigFileUtill.cpp" />
+    <ClCompile Include="..\laser\Group.cpp" />
+    <ClCompile Include="..\laser\IO.cpp" />
+    <ClCompile Include="..\laser\IOSocket.cpp" />
+    <ClCompile Include="..\laser\IpGroup.cpp" />
+    <ClCompile Include="..\laser\LaserDef.cpp" />
+    <ClCompile Include="..\laser\LaserDriver.cpp" />
+    <ClCompile Include="..\laser\LaserRequest.cpp" />
+    <ClCompile Include="..\laser\LaserResponse.cpp" />
+    <ClCompile Include="..\laser\RangingModule.cpp" />
+    <ClCompile Include="..\laser\RecvListenThread.cpp" />
+    <ClCompile Include="..\laser\Sensor.cpp" />
+    <ClCompile Include="..\laser\SensorData.cpp" />
+    <ClCompile Include="..\laser\SensorFactory.cpp" />
+    <ClCompile Include="..\laser\SensorKeyence.cpp" />
+    <ClCompile Include="..\laser\SensorManager.cpp" />
+    <ClCompile Include="..\laser\SensorSick.cpp" />
+    <ClCompile Include="..\laser\Thread.cpp" />
+    <ClCompile Include="..\laser\SyncCondition.cpp" />
+    <ClCompile Include="..\main\AdjustThread.cpp" />
+    <ClCompile Include="..\main\PlcMonitorThread.cpp" />
+    <ClCompile Include="..\main\SadsDef.cpp" />
+    <ClCompile Include="..\main\MessageProcess.cpp" />
+    <ClCompile Include="..\main\Segments.cpp" />
+    <ClCompile Include="..\main\Synchronized.cpp" />
+    <ClCompile Include="..\main\VideoThread.cpp" />
+    <ClCompile Include="..\main\WorkingThread.cpp" />
+    <ClCompile Include="..\mx\CActUtlType.cpp" />
+    <ClCompile Include="..\mx\MxWrapper.cpp" />
+    <ClCompile Include="..\support\tinyXML\tinystr.cpp" />
+    <ClCompile Include="..\support\tinyXML\tinyxml.cpp" />
+    <ClCompile Include="..\support\tinyXML\tinyxmlerror.cpp" />
+    <ClCompile Include="..\support\tinyXML\tinyxmlparser.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SADSProject.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\SADSProject.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\icon4show.bmp" />
+    <Image Include="res\icon_blue_rect.ico" />
+    <Image Include="res\icon_red_rect.ico" />
+    <Image Include="res\icon_green_rect.ico" />
+    <Image Include="res\icon_green_circle.ico" />
+    <Image Include="res\icon_grey_circle.ico" />
+    <Image Include="res\icon_blue_circle.ico" />
+    <Image Include="res\icon_grey_rect.ico" />
+    <Image Include="res\icon_red_circle.ico" />
+    <Image Include="res\SADSProject.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="SADSProject.rc" _x007B_63885648-1785-41A4-82D5-C578D29E4DA8_x007D_="CActUtlType" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,38 @@
+<!-- 相机参数配置 -->
+<CamaraModule>
+    <!-- 普通块组 -->
+	<group id="0">
+		<camara id="0" port="2016" conn="0" triID1="0" triID2="10" ip="192.168.0.187">
+		</camara>
+		
+		<camara id="1" port="2017" conn="0" triID1="1" triID2="11" ip="192.168.0.185">
+		</camara>
+		
+		<camara id="2" port="2018" conn="0" triID1="2" triID2="12" ip="192.168.1.">
+		</camara>
+		
+		<camara id="3" port="2019" conn="0" triID1="3" triID2="13" ip="192.168.1.60">
+		</camara>
+		
+		<camara id="4" port="2020" conn="0" triID1="4" triID2="14" ip="192.168">
+		</camara>
+		
+		<camara id="5" port="2021" conn="0" triID1="5" triID2="15" ip="192.168">
+		</camara>
+	</group>
+	
+	<!-- 封顶块组 -->
+	<group id="1">
+		<camara id="6" port="2022" conn="1" triID1="6" triID2="16" ip="192.168.0.188">
+		</camara>
+		
+		<camara id="7" port="2023" conn="1" triID1="7" triID2="17" ip="192.168.0.184">
+		</camara>
+		
+		<camara id="8" port="2024" conn="0" triID1="8" triID2="18" ip="192.168">
+		</camara>
+		
+		<camara id="9" port="2025" conn="0" triID1="9" triID2="19" ip="192.168">
+		</camara>
+	</group>
+</CamaraModule>

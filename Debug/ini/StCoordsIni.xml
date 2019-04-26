@@ -1,0 +1,146 @@
+<StCoords>
+    <!-- 抓取模式 -->
+    <mode id="0">
+        <!-- 标定组 capngroup -->
+        <squad id="1" isfunction="1">
+            <coord id="0" xvalue="1150" yvalue="367" />
+            <coord id="1" xvalue="1161" yvalue="392" />
+            <coord id="2" xvalue="0" yvalue="0" />
+            <coord id="3" xvalue="0" yvalue="0" />
+            <coord id="4" xvalue="0" yvalue="0" />
+            <coord id="5" xvalue="0" yvalue="0" />
+            <coord id="6" xvalue="0" yvalue="0" />
+            <coord id="7" xvalue="0" yvalue="0" />
+            <coord id="8" xvalue="0" yvalue="0" />
+            <coord id="9" xvalue="0" yvalue="0" />
+            <coord id="10" xvalue="0" yvalue="0" />
+            <coord id="11" xvalue="0" yvalue="0" />
+            <coord id="12" xvalue="0" yvalue="0" />
+            <coord id="13" xvalue="0" yvalue="0" />
+            <coord id="14" xvalue="0" yvalue="0" />
+            <coord id="15" xvalue="0" yvalue="0" />
+            <coord id="16" xvalue="0" yvalue="0" />
+            <coord id="17" xvalue="0" yvalue="0" />
+            <coord id="18" xvalue="0" yvalue="0" />
+            <coord id="19" xvalue="0" yvalue="0" />
+        </squad>
+        <!-- 标定组 capkgroup -->
+        <squad id="2" isfunction="1">
+            <coord id="0" xvalue="0" yvalue="0" />
+            <coord id="1" xvalue="0" yvalue="0" />
+            <coord id="2" xvalue="0" yvalue="0" />
+            <coord id="3" xvalue="0" yvalue="0" />
+            <coord id="4" xvalue="0" yvalue="0" />
+            <coord id="5" xvalue="0" yvalue="0" />
+            <coord id="6" xvalue="782" yvalue="786" />
+            <coord id="7" xvalue="987" yvalue="858" />
+            <coord id="8" xvalue="0" yvalue="0" />
+            <coord id="9" xvalue="0" yvalue="0" />
+            <coord id="10" xvalue="0" yvalue="0" />
+            <coord id="11" xvalue="0" yvalue="0" />
+            <coord id="12" xvalue="0" yvalue="0" />
+            <coord id="13" xvalue="0" yvalue="0" />
+            <coord id="14" xvalue="0" yvalue="0" />
+            <coord id="15" xvalue="0" yvalue="0" />
+            <coord id="16" xvalue="0" yvalue="0" />
+            <coord id="17" xvalue="0" yvalue="0" />
+            <coord id="18" xvalue="0" yvalue="0" />
+            <coord id="19" xvalue="0" yvalue="0" />
+        </squad>
+    </mode>
+    <!-- 拼装模式 -->
+    <mode id="1">
+        <!-- 标定组 assemngroup -->
+        <squad id="3" isfunction="1">
+            <coord id="0" xvalue="0" yvalue="0" />
+            <coord id="1" xvalue="0" yvalue="0" />
+            <coord id="2" xvalue="0" yvalue="0" />
+            <coord id="3" xvalue="0" yvalue="0" />
+            <coord id="4" xvalue="0" yvalue="0" />
+            <coord id="5" xvalue="0" yvalue="0" />
+            <coord id="6" xvalue="0" yvalue="0" />
+            <coord id="7" xvalue="0" yvalue="0" />
+            <coord id="8" xvalue="0" yvalue="0" />
+            <coord id="9" xvalue="0" yvalue="0" />
+            <coord id="10" xvalue="0" yvalue="0" />
+            <coord id="11" xvalue="0" yvalue="0" />
+            <coord id="12" xvalue="0" yvalue="0" />
+            <coord id="13" xvalue="0" yvalue="0" />
+            <coord id="14" xvalue="0" yvalue="0" />
+            <coord id="15" xvalue="0" yvalue="0" />
+            <coord id="16" xvalue="0" yvalue="0" />
+            <coord id="17" xvalue="0" yvalue="0" />
+            <coord id="18" xvalue="0" yvalue="0" />
+            <coord id="19" xvalue="0" yvalue="0" />
+        </squad>
+        <!-- 标定组 assemnlgroup -->
+        <squad id="4" isfunction="1">
+            <coord id="0" xvalue="0" yvalue="0" />
+            <coord id="1" xvalue="0" yvalue="0" />
+            <coord id="2" xvalue="0" yvalue="0" />
+            <coord id="3" xvalue="0" yvalue="0" />
+            <coord id="4" xvalue="0" yvalue="0" />
+            <coord id="5" xvalue="0" yvalue="0" />
+            <coord id="6" xvalue="0" yvalue="0" />
+            <coord id="7" xvalue="0" yvalue="0" />
+            <coord id="8" xvalue="0" yvalue="0" />
+            <coord id="9" xvalue="0" yvalue="0" />
+            <coord id="10" xvalue="0" yvalue="0" />
+            <coord id="11" xvalue="0" yvalue="0" />
+            <coord id="12" xvalue="0" yvalue="0" />
+            <coord id="13" xvalue="0" yvalue="0" />
+            <coord id="14" xvalue="0" yvalue="0" />
+            <coord id="15" xvalue="0" yvalue="0" />
+            <coord id="16" xvalue="0" yvalue="0" />
+            <coord id="17" xvalue="0" yvalue="0" />
+            <coord id="18" xvalue="0" yvalue="0" />
+            <coord id="19" xvalue="0" yvalue="0" />
+        </squad>
+        <!-- 标定组 assemnrgroup -->
+        <squad id="5" isfunction="1">
+            <coord id="0" xvalue="0" yvalue="0" />
+            <coord id="1" xvalue="0" yvalue="0" />
+            <coord id="2" xvalue="0" yvalue="0" />
+            <coord id="3" xvalue="0" yvalue="0" />
+            <coord id="4" xvalue="0" yvalue="0" />
+            <coord id="5" xvalue="0" yvalue="0" />
+            <coord id="6" xvalue="0" yvalue="0" />
+            <coord id="7" xvalue="0" yvalue="0" />
+            <coord id="8" xvalue="0" yvalue="0" />
+            <coord id="9" xvalue="0" yvalue="0" />
+            <coord id="10" xvalue="0" yvalue="0" />
+            <coord id="11" xvalue="0" yvalue="0" />
+            <coord id="12" xvalue="0" yvalue="0" />
+            <coord id="13" xvalue="0" yvalue="0" />
+            <coord id="14" xvalue="0" yvalue="0" />
+            <coord id="15" xvalue="0" yvalue="0" />
+            <coord id="16" xvalue="0" yvalue="0" />
+            <coord id="17" xvalue="0" yvalue="0" />
+            <coord id="18" xvalue="0" yvalue="0" />
+            <coord id="19" xvalue="0" yvalue="0" />
+        </squad>
+        <!-- 标定组 assemkgroup -->
+        <squad id="6" isfunction="1">
+            <coord id="0" xvalue="0" yvalue="0" />
+            <coord id="1" xvalue="0" yvalue="0" />
+            <coord id="2" xvalue="0" yvalue="0" />
+            <coord id="3" xvalue="0" yvalue="0" />
+            <coord id="4" xvalue="0" yvalue="0" />
+            <coord id="5" xvalue="0" yvalue="0" />
+            <coord id="6" xvalue="0" yvalue="0" />
+            <coord id="7" xvalue="0" yvalue="0" />
+            <coord id="8" xvalue="0" yvalue="0" />
+            <coord id="9" xvalue="0" yvalue="0" />
+            <coord id="10" xvalue="0" yvalue="0" />
+            <coord id="11" xvalue="0" yvalue="0" />
+            <coord id="12" xvalue="0" yvalue="0" />
+            <coord id="13" xvalue="0" yvalue="0" />
+            <coord id="14" xvalue="0" yvalue="0" />
+            <coord id="15" xvalue="0" yvalue="0" />
+            <coord id="16" xvalue="0" yvalue="0" />
+            <coord id="17" xvalue="0" yvalue="0" />
+            <coord id="18" xvalue="0" yvalue="0" />
+            <coord id="19" xvalue="0" yvalue="0" />
+        </squad>
+    </mode>
+</StCoords>

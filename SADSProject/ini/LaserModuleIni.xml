@@ -1,0 +1,85 @@
+﻿<!-- 文档声明 -->
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--        
+
+************   激光传感器安装位置与其id的对应关系 ****************
+                     激光传感器  General布局    
+		  D1(10) | D0(09)                E0(11) | E1(12)
+				 |	         				    |
+				 | C0(06)     B0(03)     A0(00) |
+			     ————————————————————————————————
+				  C1(07)     B1(04)     A1(01)
+				  C2(08)     B2(05)     A2(02)
+
+		             激光传感器  Roof布局 
+				      ———————————————————————
+			  F1(14) |  F0(13)     G0(15)    |  G1(16)
+			  H1(18) |  H0(17)     J0(19)    |  J1(20)
+
+1、<sensor>标签代表一只测距传感器
+	1.1、传感器的ID属性将依据其安装位置而确定，具体对应关系见上述注释。
+	1.2、<brand>标签内容：KEYENCE，SICK，否则报错
+
+2、<group>标签将分别属于一般管片和封顶管片的传感器进行分组映射。其中：
+    2.1、group id=0的对应于一般管片需要传感器，传感器ID应该在[0,12]的范围内，对应A~E开头的传感器。
+    2.2、group id=1的对应于封顶管片需要传感器。传感器ID应该在[13,20]的范围内，对应F~J开头的传感器。
+
+3、<ipgroup>标签映射实际中属于一个IP地址的传感器，
+	3.1、若是SICK传感器，每个<ipgroup>标签下只能有一个<sensor>标签
+	3.2、若是KEYENCE传感器，每个<ipgroup>标签下最多只能有8个<sensor>标签，因此<ipgroup>标签suid属性取值范围在[0,8]
+	3.3、<ipgroup>标签内的ip属性必须放置在最后，否则报错
+	3.4、在<ipgroup>标签内的<sensor>标签顺序与该组KEYENCE传感器物理安装顺序完全一致。
+	3.5、若一个<ipgroup>标签包含有主控制器（IL1000）对应的传感器，其suid必须等于0，该标签为主标签。
+	     主标签中第一个<sensor>标签对应主控制器（IL1000），其他以此类推。
+	3.6、若一个<ipgroup>标签不包含有主控制器对应的传感器，则为从属标签，其suid属性必须等于对应<ipgroup>主标签下传感器的个数，否则报错。
+		 从属标签出现的意义是防止属于同一个IP组的传感器分别用于一般管片和封顶管片。
+-->
+<!-- 传感器参数配置 -->
+<LaserModule>
+    <group id="1">   <!-- 一般管片  -->
+        <ipgroup suid="0" port="4004" ip="192.168.0.254">  <!-- 一个ip地址 -->
+            <sensor id="8">
+                <brand>KEYENCE</brand>
+            </sensor>
+            <sensor id="9">
+                <brand>KEYENCE</brand>
+            </sensor>
+            <sensor id="19">
+                <brand>KEYENCE</brand>
+            </sensor>
+            <sensor id="6">
+                <brand>KEYENCE</brand>
+            </sensor>
+            <sensor id="0">
+                <brand>KEYENCE</brand>
+            </sensor>
+            <sensor id="15">
+                <brand>KEYENCE</brand>
+            </sensor>
+            <sensor id="1">
+                <brand>KEYENCE</brand>
+            </sensor>
+            <sensor id="2">
+                <brand>KEYENCE</brand>
+            </sensor>
+        </ipgroup>
+        <ipgroup suid="0" port="4001" ip="192.168.0.254">
+            <sensor id="13">
+                <brand>KEYENCE</brand>
+            </sensor>
+            <sensor id="7">
+                <brand>KEYENCE</brand>
+            </sensor>
+            <sensor id="11">
+                <brand>KEYENCE</brand>
+            </sensor>
+			<sensor id="17">
+                <brand>KEYENCE</brand>
+            </sensor>
+			
+        </ipgroup>
+    </group>
+
+	
+	 
+</LaserModule>

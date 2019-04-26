@@ -1,0 +1,190 @@
+16/11/2018 09:29:46.968  ERROR  SID =  7，SOCKET Connect Failed！  g:\盾构机组\sads\sadsproject\laser\sensormanager.cpp:186
+16/11/2018 09:29:49.968  ERROR  SID = 10，SOCKET Connect Failed！  g:\盾构机组\sads\sadsproject\laser\sensormanager.cpp:186
+16/11/2018 09:29:50.968  ERROR  Sensor: 7,10,连接失败。
+可能原因：计算机与Nport之间线路故障、Nport地址错误。  g:\盾构机组\sads\sadsproject\laser\sensormanager.cpp:69
+17/11/2018 20:56:59.890  ERROR  SID =  7，SOCKET Connect Failed！  g:\盾构机组\sads\sadsproject\laser\sensormanager.cpp:186
+17/11/2018 20:57:02.890  ERROR  SID = 10，SOCKET Connect Failed！  g:\盾构机组\sads\sadsproject\laser\sensormanager.cpp:186
+17/11/2018 20:57:02.890  ERROR  Sensor: 7,10,连接失败，可能原因：计算机与Nport之间线路故障、Nport地址错误。  g:\盾构机组\sads\sadsproject\laser\sensormanager.cpp:69
+17/11/2018 20:57:17.609  ERROR  SID =  7，SOCKET Connect Failed！  g:\盾构机组\sads\sadsproject\laser\sensormanager.cpp:186
+17/11/2018 20:57:20.609  ERROR  SID = 10，SOCKET Connect Failed！  g:\盾构机组\sads\sadsproject\laser\sensormanager.cpp:186
+17/11/2018 20:57:20.609  ERROR  Sensor: 7,10,连接失败，可能原因：计算机与Nport之间线路故障、Nport地址错误。  g:\盾构机组\sads\sadsproject\laser\sensormanager.cpp:69
+24/11/2018 11:09:25.875  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:13:49.718  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:15:34.187  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:15:37.593  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:15:39.031  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:15:41.593  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:15:43.250  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:15:44.406  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:15:45.968  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:15:46.140  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:15:47.062  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:15:49.593  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:15:53.562  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:15:54.750  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:15:56.062  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:15:57.140  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:15:58.468  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:15:59.890  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:16:16.156  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:16:17.421  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:16:32.156  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:16:32.375  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:16:32.781  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:16:33.984  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:16:33.156  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:16:33.562  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:16:33.750  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:16:33.953  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:16:34.171  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:16:34.375  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:16:34.734  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:16:34.937  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:16:35.140  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:16:35.343  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:16:35.531  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:16:35.734  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:16:35.937  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:16:36.156  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:16:36.625  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:16:37.046  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 11:16:37.578  ERROR  系统未开机，该操作无效  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:47
+24/11/2018 19:08:21.812  ERROR  SID =  7，SOCKET Connect Failed！  g:\盾构机组\sads\sadsproject\laser\sensormanager.cpp:186
+24/11/2018 19:08:24.828  ERROR  SID = 10，SOCKET Connect Failed！  g:\盾构机组\sads\sadsproject\laser\sensormanager.cpp:186
+24/11/2018 19:08:24.843  ERROR  Sensor: 7,10,连接失败，可能原因：计算机与Nport之间线路故障、Nport地址错误。  g:\盾构机组\sads\sadsproject\laser\sensormanager.cpp:69
+24/11/2018 19:19:41.375  ERROR  相机 0未连接，不能拍照  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:367
+24/11/2018 21:02:46.390  ERROR  相机 0未连接，不能拍照  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:368
+24/11/2018 21:04:16.734  ERROR  相机 0未连接，不能拍照  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:368
+24/11/2018 21:12:53.734  ERROR  相机 0未连接，不能拍照  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:368
+24/11/2018 21:20:20.000  ERROR  相机 0未连接，不能拍照  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:368
+24/11/2018 21:29:56.109  ERROR  相机 0未连接，不能拍照  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:368
+24/11/2018 21:33:40.843  ERROR  相机-858993460未连接，不能拍照  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:368
+24/11/2018 21:34:14.968  ERROR  相机-858993460未连接，不能拍照  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:368
+24/11/2018 21:45:35.750  ERROR  相机-858993460未连接，不能拍照  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:368
+24/11/2018 21:50:46.000  ERROR  相机-858993460未连接，不能拍照  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:368
+24/11/2018 22:08:09.390  ERROR  相机 0未连接，不能拍照  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:368
+24/11/2018 22:22:18.843  ERROR  相机 0未连接，不能拍照  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:368
+24/11/2018 22:22:35.812  ERROR  相机 3图片未接收，拍照失败  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:376
+24/11/2018 22:24:29.000  ERROR  相机 0未连接，不能拍照  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:368
+24/11/2018 22:46:25.062  ERROR  相机 1未连接，不能拍照  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:368
+24/11/2018 22:46:29.500  ERROR  相机 2未连接，不能拍照  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:368
+24/11/2018 22:46:32.406  ERROR  相机 0未连接，不能拍照  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:368
+25/11/2018 11:28:20.296  ERROR  相机-842150451未连接，不能拍照  g:\盾构机组\sads\sadsproject\main\videothread.cpp:41
+25/11/2018 11:28:52.484  ERROR  相机-842150451未连接，不能拍照  g:\盾构机组\sads\sadsproject\main\videothread.cpp:41
+25/11/2018 11:33:05.390  ERROR  相机 0未连接，不能拍照  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:385
+25/11/2018 11:33:13.000  ERROR  相机 1未连接，不能拍照  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:385
+25/11/2018 11:56:34.046  ERROR  相机15223780未连接，不能拍照  g:\盾构机组\sads\sadsproject\main\videothread.cpp:41
+25/11/2018 11:56:50.453  ERROR  相机15223780未连接，不能拍照  g:\盾构机组\sads\sadsproject\main\videothread.cpp:41
+25/11/2018 11:56:56.875  ERROR  相机15223780未连接，不能拍照  g:\盾构机组\sads\sadsproject\main\videothread.cpp:41
+25/11/2018 11:57:11.343  ERROR  相机15223780未连接，不能拍照  g:\盾构机组\sads\sadsproject\main\videothread.cpp:41
+25/11/2018 12:00:28.546  ERROR  相机15223780未连接，不能拍照  g:\盾构机组\sads\sadsproject\main\videothread.cpp:41
+25/11/2018 17:14:49.140  ERROR  相机 0未连接，不能拍照  g:\盾构机组\sads\sadsproject\main\workingthread.cpp:428
+25/11/2018 17:14:50.421  ERROR  相机 0未连接，不能拍照  g:\盾构机组\sads\sadsproject\main\videothread.cpp:41
+28/11/2018 16:55:16.031  ERROR  SID = 17，<sensor>标签id数值超限异常  g:\盾构机组\sads\sadsproject_1.2\laser\configfileutill.cpp:220
+28/11/2018 16:58:50.937  ERROR  SID = 17，<sensor>标签id数值超限异常  g:\盾构机组\sads\sadsproject_1.2\laser\configfileutill.cpp:220
+28/11/2018 17:08:47.125  ERROR  SID =  7，SOCKET Connect Failed！  g:\盾构机组\sads\sadsproject_1.2\laser\sensormanager.cpp:181
+28/11/2018 17:08:50.125  ERROR  SID = 10，SOCKET Connect Failed！  g:\盾构机组\sads\sadsproject_1.2\laser\sensormanager.cpp:181
+28/11/2018 17:08:53.125  ERROR  SID = 13，SOCKET Connect Failed！  g:\盾构机组\sads\sadsproject_1.2\laser\sensormanager.cpp:181
+28/11/2018 17:08:53.156  ERROR  Sensor: 7,10,13,连接失败，可能原因：计算机与Nport之间线路故障、Nport地址错误。  g:\盾构机组\sads\sadsproject_1.2\laser\sensormanager.cpp:68
+28/11/2018 17:13:56.812  ERROR  SID =  7，SOCKET Connect Failed！  g:\盾构机组\sads\sadsproject_1.2\laser\sensormanager.cpp:181
+28/11/2018 17:13:59.828  ERROR  SID = 10，SOCKET Connect Failed！  g:\盾构机组\sads\sadsproject_1.2\laser\sensormanager.cpp:181
+28/11/2018 17:14:02.828  ERROR  SID = 13，SOCKET Connect Failed！  g:\盾构机组\sads\sadsproject_1.2\laser\sensormanager.cpp:181
+28/11/2018 17:14:02.828  ERROR  Sensor: 7,10,13,连接失败，可能原因：计算机与Nport之间线路故障、Nport地址错误。  g:\盾构机组\sads\sadsproject_1.2\laser\sensormanager.cpp:68
+28/11/2018 18:10:16.281  ERROR  SID =  7，SOCKET Connect Failed！  g:\盾构机组\sads\sadsproject_1.2\laser\sensormanager.cpp:181
+28/11/2018 18:10:19.296  ERROR  SID = 10，SOCKET Connect Failed！  g:\盾构机组\sads\sadsproject_1.2\laser\sensormanager.cpp:181
+28/11/2018 18:10:22.296  ERROR  SID = 13，SOCKET Connect Failed！  g:\盾构机组\sads\sadsproject_1.2\laser\sensormanager.cpp:181
+28/11/2018 18:10:22.296  ERROR  Sensor: 7,10,13,连接失败，可能原因：计算机与Nport之间线路故障、Nport地址错误。  g:\盾构机组\sads\sadsproject_1.2\laser\sensormanager.cpp:68
+29/11/2018 22:15:01.562  ERROR  标定文件<gCaliValue>标签异常  g:\盾构机组\sads\sadsproject_1.3\laser\configfileutill.cpp:307
+29/11/2018 22:16:33.484  ERROR  标定文件<gCaliValue>标签异常  g:\盾构机组\sads\sadsproject_1.3\laser\configfileutill.cpp:307
+29/11/2018 22:19:18.312  ERROR  SID =  1，标定文件<gCaliValue>标签异常  g:\盾构机组\sads\sadsproject_1.3\laser\configfileutill.cpp:307
+01/12/2018 17:11:43.578  ERROR  SID =  7，SOCKET Connect Failed！  g:\盾构机组\sads\sadsproject_1.4\laser\sensormanager.cpp:181
+01/12/2018 17:11:46.578  ERROR  SID = 10，SOCKET Connect Failed！  g:\盾构机组\sads\sadsproject_1.4\laser\sensormanager.cpp:181
+01/12/2018 17:11:49.578  ERROR  SID = 13，SOCKET Connect Failed！  g:\盾构机组\sads\sadsproject_1.4\laser\sensormanager.cpp:181
+01/12/2018 17:11:49.609  ERROR  Sensor: 7,10,13,连接失败，可能原因：计算机与Nport之间线路故障、Nport地址错误。  g:\盾构机组\sads\sadsproject_1.4\laser\sensormanager.cpp:68
+10/12/2018 15:20:30.515  ERROR  SENSOR  713 连接测试失败，请检查传感器连接线路  d:\桌面\自动化盾构项目\sadsproject_1.6\laser\rangingmodule.cpp:63
+15/12/2018 11:26:50.671  ERROR  SOCKET 4004,4001, Connect Failed，请检查计算机与服务器之间线路、配置文件IP地址  d:\桌面\自动化盾构项目\盾构机自动拼接程序\sadsproject_1.7\laser\sensormanager.cpp:68
+16/12/2018 11:37:31.140  ERROR  SOCKET 4004,4001, Connect Failed，请检查计算机与服务器之间线路、配置文件IP地址  d:\桌面\自动化盾构项目\盾构机自动拼接程序\sadsproject_1.7\laser\sensormanager.cpp:68
+21/12/2018 14:27:10.203  ERROR  SOCKET 4004,4001, Connect Failed，请检查计算机与服务器之间线路、配置文件IP地址  d:\桌面\自动化盾构项目\盾构机自动拼接程序\sadsproject_1.8\laser\sensormanager.cpp:68
+21/12/2018 15:32:33.937  ERROR  SENSOR  0， 6， 9，11， 数据：SENSOR_REQ_ERROR_DATA  d:\桌面\自动化盾构项目\盾构机自动拼接程序\sadsproject_1.8\laser\calculate.cpp:364
+21/12/2018 15:32:33.968  ERROR  测距模块异常，请检查  d:\桌面\自动化盾构项目\盾构机自动拼接程序\sadsproject_1.8\main\adjustthread.cpp:260
+21/12/2018 15:33:38.265  ERROR  SENSOR  0， 6， 9，11， 数据：SENSOR_REQ_ERROR_DATA  d:\桌面\自动化盾构项目\盾构机自动拼接程序\sadsproject_1.8\laser\calculate.cpp:364
+21/12/2018 15:33:38.296  ERROR  测距模块异常，请检查  d:\桌面\自动化盾构项目\盾构机自动拼接程序\sadsproject_1.8\main\adjustthread.cpp:260
+21/12/2018 15:34:37.031  ERROR  SENSOR  0， 6， 9，11， 数据：SENSOR_REQ_ERROR_DATA  d:\桌面\自动化盾构项目\盾构机自动拼接程序\sadsproject_1.8\laser\calculate.cpp:364
+21/12/2018 15:34:37.078  ERROR  测距模块异常，请检查  d:\桌面\自动化盾构项目\盾构机自动拼接程序\sadsproject_1.8\main\adjustthread.cpp:260
+21/12/2018 17:00:41.687  ERROR  SENSOR  9， 数据：SENSOR_REQ_ERROR_DATA  d:\桌面\自动化盾构项目\盾构机自动拼接程序\sadsproject_1.8\laser\calculate.cpp:364
+21/12/2018 17:00:41.718  ERROR  测距模块异常，请检查  d:\桌面\自动化盾构项目\盾构机自动拼接程序\sadsproject_1.8\main\adjustthread.cpp:260
+04/01/2019 11:51:21.343  ERROR  相机 0图片未接收，拍照失败  e:\learning\毕设\sadsproject_1.8\main\workingthread.cpp:524
+04/01/2019 11:51:37.046  ERROR  相机 1图片未接收，拍照失败  e:\learning\毕设\sadsproject_1.8\main\workingthread.cpp:524
+04/01/2019 11:51:45.359  ERROR  相机 1图片未接收，拍照失败  e:\learning\毕设\sadsproject_1.8\main\workingthread.cpp:524
+04/01/2019 11:54:23.609  ERROR  相机 1图片未接收，拍照失败  e:\learning\毕设\sadsproject_1.8\main\workingthread.cpp:524
+04/01/2019 12:14:33.171  ERROR  相机 0图片未接收，拍照失败  e:\learning\毕设\sadsproject_1.8\main\workingthread.cpp:524
+04/01/2019 12:26:31.750  ERROR  相机 0图片未接收，拍照失败  e:\learning\毕设\sadsproject_1.8\main\workingthread.cpp:524
+04/01/2019 12:26:55.187  ERROR  相机 1图片未接收，拍照失败  e:\learning\毕设\sadsproject_1.8\main\workingthread.cpp:524
+04/01/2019 13:17:12.687  ERROR  相机 0图片未接收，拍照失败  e:\learning\毕设\sadsproject_1.8\main\workingthread.cpp:524
+05/01/2019 00:51:17.906  ERROR  图像模块异常，请检查  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:260
+05/01/2019 13:43:48.546  ERROR  SOCKET 4004,4001, Connect Failed，请检查计算机与服务器之间线路、配置文件IP地址  e:\learning\毕设\sadsproject_1.8\laser\sensormanager.cpp:68
+05/01/2019 17:16:03.484  ERROR  写入PLC油缸动作失败  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:261
+05/01/2019 17:23:25.000  ERROR  写入PLC油缸动作失败  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:261
+05/01/2019 17:31:34.062  ERROR  SENSOR  9，11， 数据：SENSOR_REQ_ERROR_DATA  e:\learning\毕设\sadsproject_1.8\laser\calculate.cpp:364
+05/01/2019 17:31:34.093  ERROR  测距模块异常，请检查  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:261
+05/01/2019 17:38:17.500  ERROR  SENSOR 11， 数据：SENSOR_REQ_ERROR_DATA  e:\learning\毕设\sadsproject_1.8\laser\calculate.cpp:364
+05/01/2019 17:38:17.531  ERROR  测距模块异常，请检查  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:261
+05/01/2019 17:41:08.656  ERROR  SENSOR 11， 数据：SENSOR_REQ_ERROR_DATA  e:\learning\毕设\sadsproject_1.8\laser\calculate.cpp:364
+05/01/2019 17:41:08.671  ERROR  测距模块异常，请检查  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:261
+05/01/2019 18:08:59.250  ERROR  图像模块异常，请检查  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:263
+05/01/2019 21:21:26.765  ERROR  写入PLC油缸动作失败  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:263
+05/01/2019 21:57:00.296  ERROR  写入PLC油缸动作失败  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:263
+05/01/2019 22:07:38.062  ERROR  写入PLC油缸动作失败  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:263
+05/01/2019 22:12:09.046  ERROR  写入PLC油缸动作失败  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:263
+05/01/2019 22:35:21.593  ERROR  SENSOR 11， 数据：SENSOR_REQ_ERROR_DATA  e:\learning\毕设\sadsproject_1.8\laser\calculate.cpp:364
+05/01/2019 22:35:21.625  ERROR  测距模块异常，请检查  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:263
+05/01/2019 22:51:28.453  ERROR  SENSOR  9， 数据：SENSOR_REQ_ERROR_DATA  e:\learning\毕设\sadsproject_1.8\laser\calculate.cpp:364
+05/01/2019 22:51:28.468  ERROR  测距模块异常，请检查  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:263
+05/01/2019 22:52:43.078  ERROR  SENSOR  9， 数据：SENSOR_REQ_ERROR_DATA  e:\learning\毕设\sadsproject_1.8\laser\calculate.cpp:364
+05/01/2019 22:52:44.109  ERROR  测距模块异常，请检查  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:263
+05/01/2019 23:17:34.375  ERROR  写入PLC油缸动作失败  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:263
+06/01/2019 00:43:19.234  ERROR  写入PLC油缸动作失败  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:263
+06/01/2019 00:57:46.515  ERROR  写入PLC油缸动作失败  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:263
+08/01/2019 12:17:13.921  ERROR  SENSOR  9，11， 数据：SENSOR_REQ_ERROR_DATA  e:\learning\毕设\sadsproject_1.8\laser\calculate.cpp:364
+08/01/2019 12:17:14.187  ERROR  测距模块异常，请检查  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:263
+08/01/2019 12:23:46.984  ERROR  写入PLC油缸动作失败  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:263
+08/01/2019 12:28:33.781  ERROR  写入PLC油缸动作失败  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:263
+08/01/2019 12:34:08.796  ERROR  写入PLC油缸动作失败  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:263
+08/01/2019 13:04:13.937  ERROR  写入PLC油缸动作失败  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:263
+08/01/2019 13:19:20.515  ERROR  SOCKET 4004,4001, Connect Failed，请检查计算机与服务器之间线路、配置文件IP地址  e:\learning\毕设\sadsproject_1.8\laser\sensormanager.cpp:68
+08/01/2019 13:32:06.734  ERROR  写入PLC油缸动作失败  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:263
+08/01/2019 13:44:39.484  ERROR  写入PLC油缸动作失败  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:263
+08/01/2019 13:46:54.671  ERROR  写入PLC油缸动作失败  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:263
+08/01/2019 13:55:11.312  ERROR  图像模块异常，请检查  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:263
+08/01/2019 14:05:36.406  ERROR  写入PLC油缸动作失败  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:263
+08/01/2019 14:14:29.187  ERROR  写入PLC油缸动作失败  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:263
+09/01/2019 22:07:32.093  ERROR  管片姿态偏差过大，请调整管片  e:\learning\毕设\sadsproject_1.8\laser\calculateranging.cpp:85
+09/01/2019 22:07:33.468  ERROR  测距模块异常，请检查  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:282
+09/01/2019 22:10:48.140  ERROR  SENSOR  0， 6， 9，11， 数据：SENSOR_REQ_ERROR_DATA  e:\learning\毕设\sadsproject_1.8\laser\calculate.cpp:364
+09/01/2019 22:10:48.171  ERROR  测距模块异常，请检查  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:282
+09/01/2019 22:13:30.515  ERROR  SENSOR  0， 6， 9，11， 数据：SENSOR_REQ_ERROR_DATA  e:\learning\毕设\sadsproject_1.8\laser\calculate.cpp:364
+09/01/2019 22:13:30.531  ERROR  测距模块异常，请检查  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:282
+09/01/2019 22:14:10.953  ERROR  SENSOR  0， 6， 9，11， 数据：SENSOR_REQ_ERROR_DATA  e:\learning\毕设\sadsproject_1.8\laser\calculate.cpp:364
+09/01/2019 22:14:10.984  ERROR  测距模块异常，请检查  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:282
+09/01/2019 22:17:08.015  ERROR  ID = 1，GetGroup返回空指针  e:\learning\毕设\sadsproject_1.8\laser\rangingmodule.cpp:267
+09/01/2019 22:17:10.796  ERROR  ID = 1，GetGroup返回空指针  e:\learning\毕设\sadsproject_1.8\laser\rangingmodule.cpp:267
+09/01/2019 22:17:12.531  ERROR  ID = 1，GetGroup返回空指针  e:\learning\毕设\sadsproject_1.8\laser\rangingmodule.cpp:267
+09/01/2019 22:17:14.281  ERROR  ID = 1，GetGroup返回空指针  e:\learning\毕设\sadsproject_1.8\laser\rangingmodule.cpp:267
+09/01/2019 22:17:15.031  ERROR  ID = 1，GetGroup返回空指针  e:\learning\毕设\sadsproject_1.8\laser\rangingmodule.cpp:267
+09/01/2019 22:17:17.765  ERROR  ID = 1，GetGroup返回空指针  e:\learning\毕设\sadsproject_1.8\laser\rangingmodule.cpp:267
+09/01/2019 22:17:19.500  ERROR  ID = 1，GetGroup返回空指针  e:\learning\毕设\sadsproject_1.8\laser\rangingmodule.cpp:267
+09/01/2019 22:17:21.265  ERROR  ID = 1，GetGroup返回空指针  e:\learning\毕设\sadsproject_1.8\laser\rangingmodule.cpp:267
+09/01/2019 22:17:22.000  ERROR  ID = 1，GetGroup返回空指针  e:\learning\毕设\sadsproject_1.8\laser\rangingmodule.cpp:267
+09/01/2019 22:17:24.781  ERROR  ID = 1，GetGroup返回空指针  e:\learning\毕设\sadsproject_1.8\laser\rangingmodule.cpp:267
+09/01/2019 22:17:26.515  ERROR  ID = 1，GetGroup返回空指针  e:\learning\毕设\sadsproject_1.8\laser\rangingmodule.cpp:267
+09/01/2019 22:17:28.281  ERROR  ID = 1，GetGroup返回空指针  e:\learning\毕设\sadsproject_1.8\laser\rangingmodule.cpp:267
+09/01/2019 22:17:29.031  ERROR  ID = 1，GetGroup返回空指针  e:\learning\毕设\sadsproject_1.8\laser\rangingmodule.cpp:267
+09/01/2019 22:17:31.796  ERROR  ID = 1，GetGroup返回空指针  e:\learning\毕设\sadsproject_1.8\laser\rangingmodule.cpp:267
+09/01/2019 22:17:33.546  ERROR  ID = 1，GetGroup返回空指针  e:\learning\毕设\sadsproject_1.8\laser\rangingmodule.cpp:267
+09/01/2019 22:17:35.312  ERROR  ID = 1，GetGroup返回空指针  e:\learning\毕设\sadsproject_1.8\laser\rangingmodule.cpp:267
+09/01/2019 22:17:36.062  ERROR  ID = 1，GetGroup返回空指针  e:\learning\毕设\sadsproject_1.8\laser\rangingmodule.cpp:267
+09/01/2019 22:17:38.828  ERROR  ID = 1，GetGroup返回空指针  e:\learning\毕设\sadsproject_1.8\laser\rangingmodule.cpp:267
+09/01/2019 22:17:40.593  ERROR  ID = 1，GetGroup返回空指针  e:\learning\毕设\sadsproject_1.8\laser\rangingmodule.cpp:267
+09/01/2019 22:18:07.843  ERROR  写入PLC油缸动作失败  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:283
+09/01/2019 23:21:11.109  ERROR  写入PLC油缸动作失败  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:283
+10/01/2019 00:24:12.328  ERROR  写入PLC油缸动作失败  e:\learning\毕设\sadsproject_1.8\main\adjustthread.cpp:283

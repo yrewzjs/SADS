@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="laser">
+      <UniqueIdentifier>{6e6fd2c3-ebc4-4e46-b2c3-e94c1253c774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="support">
+      <UniqueIdentifier>{e6a394e2-0d9e-49b3-ba69-308f0e930c19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mx">
+      <UniqueIdentifier>{db372567-f819-4191-a86d-18a1679ef200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="camera">
+      <UniqueIdentifier>{3bc27e70-4d4b-4e99-9cc8-97bf8c43f15c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="support\easyloggingpp">
+      <UniqueIdentifier>{e54ccd1e-09eb-4de6-885f-a930fa5c5dcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="support\tinyXML">
+      <UniqueIdentifier>{a8e0dbbe-a90a-463d-96f3-cd4c8160a2dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{f1ec33e0-b8fb-45e2-a5d5-384d2dd40284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface">
+      <UniqueIdentifier>{04dad314-d1d3-40de-97f7-6ab6b333a754}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\support\easyloggingpp\easylogging++.h">
+      <Filter>support\easyloggingpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\support\tinyXML\tinystr.h">
+      <Filter>support\tinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\support\tinyXML\tinyxml.h">
+      <Filter>support\tinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\laser\Calculate.h">
+      <Filter>laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\laser\CalculateRanging.h">
+      <Filter>laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\laser\ConfigFileUtill.h">
+      <Filter>laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\laser\Group.h">
+      <Filter>laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\laser\IO.h">
+      <Filter>laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\laser\IOSocket.h">
+      <Filter>laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\laser\IpGroup.h">
+      <Filter>laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\laser\LaserDriver.h">
+      <Filter>laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\laser\LaserRequest.h">
+      <Filter>laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\laser\LaserResponse.h">
+      <Filter>laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\laser\RangingModule.h">
+      <Filter>laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\laser\RecvListenThread.h">
+      <Filter>laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\laser\SensorData.h">
+      <Filter>laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\laser\SensorFactory.h">
+      <Filter>laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\laser\SensorKeyence.h">
+      <Filter>laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\laser\SensorManager.h">
+      <Filter>laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\laser\SensorSick.h">
+      <Filter>laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\laser\Thread.h">
+      <Filter>laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\camera\CamaraModule.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\camera\CamIP_manage.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\camera\coordinate_standardize.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\camera\coords_struct.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\camera\ctrl_cam.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\camera\IO_cam.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\camera\read_writeXML.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\camera\value2transit_formchange.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\main\WorkingThread.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\main\Synchronized.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\main\SyncQueue.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\laser\Sensor.h">
+      <Filter>laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\laser\SyncCondition.h">
+      <Filter>laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mx\CActUtlType.h">
+      <Filter>mx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\main\MessageProcess.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mx\MXComonentDef.h">
+      <Filter>mx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mx\MxWrapper.h">
+      <Filter>mx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\main\VideoThread.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\main\SadsDef.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\laser\LaserDef.h">
+      <Filter>laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\main\Segments.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\main\PlcMonitorThread.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\main\AdjustThread.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\interface\DialogAbout.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\interface\DialogCalibration.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\interface\DialogCamera.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\interface\DialogDisplayPartA.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\interface\DialogDisplayPartB.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\interface\DialogDisplayPartC.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\interface\DialogInput.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\interface\SADSProject.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\interface\SADSProjectDlg.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\support\tinyXML\tinystr.cpp">
+      <Filter>support\tinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\support\tinyXML\tinyxml.cpp">
+      <Filter>support\tinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\support\tinyXML\tinyxmlerror.cpp">
+      <Filter>support\tinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\support\tinyXML\tinyxmlparser.cpp">
+      <Filter>support\tinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\laser\Calculate.cpp">
+      <Filter>laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\laser\CalculateRanging.cpp">
+      <Filter>laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\laser\ConfigFileUtill.cpp">
+      <Filter>laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\laser\Group.cpp">
+      <Filter>laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\laser\IO.cpp">
+      <Filter>laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\laser\IOSocket.cpp">
+      <Filter>laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\laser\IpGroup.cpp">
+      <Filter>laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\laser\LaserDriver.cpp">
+      <Filter>laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\laser\LaserRequest.cpp">
+      <Filter>laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\laser\LaserResponse.cpp">
+      <Filter>laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\laser\RangingModule.cpp">
+      <Filter>laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\laser\RecvListenThread.cpp">
+      <Filter>laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\laser\SensorData.cpp">
+      <Filter>laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\laser\SensorFactory.cpp">
+      <Filter>laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\laser\SensorKeyence.cpp">
+      <Filter>laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\laser\SensorManager.cpp">
+      <Filter>laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\laser\SensorSick.cpp">
+      <Filter>laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\laser\Thread.cpp">
+      <Filter>laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\camera\CamaraModule.cpp">
+      <Filter>camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\camera\CamIP_manage.cpp">
+      <Filter>camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\camera\coordinate_standardize.cpp">
+      <Filter>camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\camera\coords_struct.cpp">
+      <Filter>camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\camera\ctrl_cam.cpp">
+      <Filter>camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\camera\IO_cam.cpp">
+      <Filter>camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\camera\read_writeXML.cpp">
+      <Filter>camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\camera\value2transit_formchange.cpp">
+      <Filter>camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\main\WorkingThread.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\main\Synchronized.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\laser\Sensor.cpp">
+      <Filter>laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\laser\SyncCondition.cpp">
+      <Filter>laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mx\CActUtlType.cpp">
+      <Filter>mx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\main\MessageProcess.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mx\MxWrapper.cpp">
+      <Filter>mx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\main\VideoThread.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\main\SadsDef.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\laser\LaserDef.cpp">
+      <Filter>laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\main\Segments.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\main\PlcMonitorThread.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\main\AdjustThread.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\interface\DialogAbout.cpp">
+      <Filter>interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\interface\DialogCalibration.cpp">
+      <Filter>interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\interface\DialogCamera.cpp">
+      <Filter>interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\interface\DialogDisplayPartA.cpp">
+      <Filter>interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\interface\DialogDisplayPartB.cpp">
+      <Filter>interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\interface\DialogDisplayPartC.cpp">
+      <Filter>interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\interface\DialogInput.cpp">
+      <Filter>interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\interface\SADSProject.cpp">
+      <Filter>interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\interface\SADSProjectDlg.cpp">
+      <Filter>interface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SADSProject.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\SADSProject.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\SADSProject.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon_blue_circle.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon_grey_circle.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon_green_circle.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon_green_rect.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon_grey_rect.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon_red_circle.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon_red_rect.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon_blue_rect.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon4show.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
